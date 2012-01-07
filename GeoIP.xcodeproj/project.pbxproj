@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C928902214B89D9B00B80F23 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C928902014B89D9B00B80F23 /* LICENSE */; };
+		C928902314B89D9B00B80F23 /* README in Resources */ = {isa = PBXBuildFile; fileRef = C928902114B89D9B00B80F23 /* README */; };
+		C995480D14A8C1A9004FCC6F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C995480C14A8C1A9004FCC6F /* Cocoa.framework */; };
+		C995481714A8C1A9004FCC6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C995481514A8C1A9004FCC6F /* InfoPlist.strings */; };
+		C995481B14A8C1A9004FCC6F /* GeoIP.m in Sources */ = {isa = PBXBuildFile; fileRef = C995481A14A8C1A9004FCC6F /* GeoIP.m */; };
+		C995482314A8C1A9004FCC6F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C995482214A8C1A9004FCC6F /* SenTestingKit.framework */; };
+		C995482414A8C1A9004FCC6F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C995480C14A8C1A9004FCC6F /* Cocoa.framework */; };
+		C995482714A8C1A9004FCC6F /* GeoIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C995480914A8C1A9004FCC6F /* GeoIP.framework */; };
+		C995482D14A8C1A9004FCC6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C995482B14A8C1A9004FCC6F /* InfoPlist.strings */; };
+		C995482F14A8C1A9004FCC6F /* GeoIPTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C995482E14A8C1A9004FCC6F /* GeoIPTests.h */; };
+		C995483114A8C1A9004FCC6F /* GeoIPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C995483014A8C1A9004FCC6F /* GeoIPTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C995482514A8C1A9004FCC6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99547FF14A8C1A9004FCC6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C995480814A8C1A9004FCC6F;
+			remoteInfo = GeoIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C928902014B89D9B00B80F23 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C928902114B89D9B00B80F23 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		C995480914A8C1A9004FCC6F /* GeoIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C995480C14A8C1A9004FCC6F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C995480F14A8C1A9004FCC6F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C995481014A8C1A9004FCC6F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C995481114A8C1A9004FCC6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C995481414A8C1A9004FCC6F /* GeoIP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoIP-Info.plist"; sourceTree = "<group>"; };
+		C995481614A8C1A9004FCC6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C995481814A8C1A9004FCC6F /* GeoIP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoIP-Prefix.pch"; sourceTree = "<group>"; };
+		C995481914A8C1A9004FCC6F /* GeoIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoIP.h; sourceTree = "<group>"; };
+		C995481A14A8C1A9004FCC6F /* GeoIP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoIP.m; sourceTree = "<group>"; };
+		C995482114A8C1A9004FCC6F /* GeoIPTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoIPTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C995482214A8C1A9004FCC6F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C995482A14A8C1A9004FCC6F /* GeoIPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoIPTests-Info.plist"; sourceTree = "<group>"; };
+		C995482C14A8C1A9004FCC6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C995482E14A8C1A9004FCC6F /* GeoIPTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoIPTests.h; sourceTree = "<group>"; };
+		C995483014A8C1A9004FCC6F /* GeoIPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoIPTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C995480514A8C1A9004FCC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995480D14A8C1A9004FCC6F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C995481D14A8C1A9004FCC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995482314A8C1A9004FCC6F /* SenTestingKit.framework in Frameworks */,
+				C995482414A8C1A9004FCC6F /* Cocoa.framework in Frameworks */,
+				C995482714A8C1A9004FCC6F /* GeoIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99547FD14A8C1A9004FCC6F = {
+			isa = PBXGroup;
+			children = (
+				C928902014B89D9B00B80F23 /* LICENSE */,
+				C928902114B89D9B00B80F23 /* README */,
+				C995481214A8C1A9004FCC6F /* GeoIP */,
+				C995482814A8C1A9004FCC6F /* GeoIPTests */,
+				C995484914A8C582004FCC6F /* Resources */,
+				C995480B14A8C1A9004FCC6F /* Frameworks */,
+				C995480A14A8C1A9004FCC6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C995480A14A8C1A9004FCC6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C995480914A8C1A9004FCC6F /* GeoIP.framework */,
+				C995482114A8C1A9004FCC6F /* GeoIPTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C995480B14A8C1A9004FCC6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C995480C14A8C1A9004FCC6F /* Cocoa.framework */,
+				C995482214A8C1A9004FCC6F /* SenTestingKit.framework */,
+				C995480E14A8C1A9004FCC6F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C995480E14A8C1A9004FCC6F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C995480F14A8C1A9004FCC6F /* AppKit.framework */,
+				C995481014A8C1A9004FCC6F /* CoreData.framework */,
+				C995481114A8C1A9004FCC6F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C995481214A8C1A9004FCC6F /* GeoIP */ = {
+			isa = PBXGroup;
+			children = (
+				C995481914A8C1A9004FCC6F /* GeoIP.h */,
+				C995481A14A8C1A9004FCC6F /* GeoIP.m */,
+				C995481314A8C1A9004FCC6F /* Supporting Files */,
+			);
+			path = GeoIP;
+			sourceTree = "<group>";
+		};
+		C995481314A8C1A9004FCC6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C995481414A8C1A9004FCC6F /* GeoIP-Info.plist */,
+				C995481514A8C1A9004FCC6F /* InfoPlist.strings */,
+				C995481814A8C1A9004FCC6F /* GeoIP-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C995482814A8C1A9004FCC6F /* GeoIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				C995482E14A8C1A9004FCC6F /* GeoIPTests.h */,
+				C995483014A8C1A9004FCC6F /* GeoIPTests.m */,
+				C995482914A8C1A9004FCC6F /* Supporting Files */,
+			);
+			path = GeoIPTests;
+			sourceTree = "<group>";
+		};
+		C995482914A8C1A9004FCC6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C995482A14A8C1A9004FCC6F /* GeoIPTests-Info.plist */,
+				C995482B14A8C1A9004FCC6F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C995484914A8C582004FCC6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C995480614A8C1A9004FCC6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C995480814A8C1A9004FCC6F /* GeoIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C995483414A8C1A9004FCC6F /* Build configuration list for PBXNativeTarget "GeoIP" */;
+			buildPhases = (
+				C995480414A8C1A9004FCC6F /* Sources */,
+				C995480514A8C1A9004FCC6F /* Frameworks */,
+				C995480614A8C1A9004FCC6F /* Headers */,
+				C995480714A8C1A9004FCC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoIP;
+			productName = GeoIP;
+			productReference = C995480914A8C1A9004FCC6F /* GeoIP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C995482014A8C1A9004FCC6F /* GeoIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C995483714A8C1A9004FCC6F /* Build configuration list for PBXNativeTarget "GeoIPTests" */;
+			buildPhases = (
+				C995481C14A8C1A9004FCC6F /* Sources */,
+				C995481D14A8C1A9004FCC6F /* Frameworks */,
+				C995481E14A8C1A9004FCC6F /* Resources */,
+				C995481F14A8C1A9004FCC6F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C995482614A8C1A9004FCC6F /* PBXTargetDependency */,
+			);
+			name = GeoIPTests;
+			productName = GeoIPTests;
+			productReference = C995482114A8C1A9004FCC6F /* GeoIPTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99547FF14A8C1A9004FCC6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = NA;
+			};
+			buildConfigurationList = C995480214A8C1A9004FCC6F /* Build configuration list for PBXProject "GeoIP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C99547FD14A8C1A9004FCC6F;
+			productRefGroup = C995480A14A8C1A9004FCC6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C995480814A8C1A9004FCC6F /* GeoIP */,
+				C995482014A8C1A9004FCC6F /* GeoIPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C995480714A8C1A9004FCC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995481714A8C1A9004FCC6F /* InfoPlist.strings in Resources */,
+				C928902214B89D9B00B80F23 /* LICENSE in Resources */,
+				C928902314B89D9B00B80F23 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C995481E14A8C1A9004FCC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995482D14A8C1A9004FCC6F /* InfoPlist.strings in Resources */,
+				C995482F14A8C1A9004FCC6F /* GeoIPTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C995481F14A8C1A9004FCC6F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C995480414A8C1A9004FCC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995481B14A8C1A9004FCC6F /* GeoIP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C995481C14A8C1A9004FCC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995483114A8C1A9004FCC6F /* GeoIPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C995482614A8C1A9004FCC6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C995480814A8C1A9004FCC6F /* GeoIP */;
+			targetProxy = C995482514A8C1A9004FCC6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C995481514A8C1A9004FCC6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C995481614A8C1A9004FCC6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C995482B14A8C1A9004FCC6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C995482C14A8C1A9004FCC6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C995483214A8C1A9004FCC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C995483314A8C1A9004FCC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		C995483514A8C1A9004FCC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoIP/GeoIP-Prefix.pch";
+				INFOPLIST_FILE = "GeoIP/GeoIP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		C995483614A8C1A9004FCC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoIP/GeoIP-Prefix.pch";
+				INFOPLIST_FILE = "GeoIP/GeoIP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		C995483814A8C1A9004FCC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoIP/GeoIP-Prefix.pch";
+				INFOPLIST_FILE = "GeoIPTests/GeoIPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C995483914A8C1A9004FCC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoIP/GeoIP-Prefix.pch";
+				INFOPLIST_FILE = "GeoIPTests/GeoIPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C995480214A8C1A9004FCC6F /* Build configuration list for PBXProject "GeoIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995483214A8C1A9004FCC6F /* Debug */,
+				C995483314A8C1A9004FCC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C995483414A8C1A9004FCC6F /* Build configuration list for PBXNativeTarget "GeoIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995483514A8C1A9004FCC6F /* Debug */,
+				C995483614A8C1A9004FCC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C995483714A8C1A9004FCC6F /* Build configuration list for PBXNativeTarget "GeoIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995483814A8C1A9004FCC6F /* Debug */,
+				C995483914A8C1A9004FCC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99547FF14A8C1A9004FCC6F /* Project object */;
+}

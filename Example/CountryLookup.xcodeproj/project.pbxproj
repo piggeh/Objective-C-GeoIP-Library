@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C928901714B88C0800B80F23 /* GeoIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C928900914B889B400B80F23 /* GeoIP.framework */; };
+		C9C2563114B8890800A50B50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C2563014B8890800A50B50 /* Cocoa.framework */; };
+		C9C2563B14B8890800A50B50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C2563914B8890800A50B50 /* InfoPlist.strings */; };
+		C9C2563D14B8890800A50B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2563C14B8890800A50B50 /* main.m */; };
+		C9C2564114B8890800A50B50 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9C2563F14B8890800A50B50 /* Credits.rtf */; };
+		C9C2564414B8890800A50B50 /* CountryLookupAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2564314B8890800A50B50 /* CountryLookupAppDelegate.m */; };
+		C9C2564714B8890800A50B50 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C2564514B8890800A50B50 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C928900814B889B400B80F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C928900014B889B300B80F23 /* GeoIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C995480914A8C1A9004FCC6F;
+			remoteInfo = GeoIP;
+		};
+		C928900A14B889B400B80F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C928900014B889B300B80F23 /* GeoIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C995482114A8C1A9004FCC6F;
+			remoteInfo = GeoIPTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C928900014B889B300B80F23 /* GeoIP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GeoIP.xcodeproj; path = ../GeoIP.xcodeproj; sourceTree = "<group>"; };
+		C9C2562C14B8890800A50B50 /* CountryLookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryLookup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C2563014B8890800A50B50 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9C2563314B8890800A50B50 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C9C2563414B8890800A50B50 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9C2563514B8890800A50B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9C2563814B8890800A50B50 /* CountryLookup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountryLookup-Info.plist"; sourceTree = "<group>"; };
+		C9C2563A14B8890800A50B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9C2563C14B8890800A50B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C2563E14B8890800A50B50 /* CountryLookup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CountryLookup-Prefix.pch"; sourceTree = "<group>"; };
+		C9C2564014B8890800A50B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C9C2564214B8890800A50B50 /* CountryLookupAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryLookupAppDelegate.h; sourceTree = "<group>"; };
+		C9C2564314B8890800A50B50 /* CountryLookupAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryLookupAppDelegate.m; sourceTree = "<group>"; };
+		C9C2564614B8890800A50B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C2562914B8890800A50B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928901714B88C0800B80F23 /* GeoIP.framework in Frameworks */,
+				C9C2563114B8890800A50B50 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C928900114B889B300B80F23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C928900914B889B400B80F23 /* GeoIP.framework */,
+				C928900B14B889B400B80F23 /* GeoIPTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C2562114B8890800A50B50 = {
+			isa = PBXGroup;
+			children = (
+				C928900014B889B300B80F23 /* GeoIP.xcodeproj */,
+				C9C2563614B8890800A50B50 /* CountryLookup */,
+				C9C2562F14B8890800A50B50 /* Frameworks */,
+				C9C2562D14B8890800A50B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C2562D14B8890800A50B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C2562C14B8890800A50B50 /* CountryLookup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C2562F14B8890800A50B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C2563014B8890800A50B50 /* Cocoa.framework */,
+				C9C2563214B8890800A50B50 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C2563214B8890800A50B50 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C2563314B8890800A50B50 /* AppKit.framework */,
+				C9C2563414B8890800A50B50 /* CoreData.framework */,
+				C9C2563514B8890800A50B50 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C9C2563614B8890800A50B50 /* CountryLookup */ = {
+			isa = PBXGroup;
+			children = (
+				C9C2564214B8890800A50B50 /* CountryLookupAppDelegate.h */,
+				C9C2564314B8890800A50B50 /* CountryLookupAppDelegate.m */,
+				C9C2564514B8890800A50B50 /* MainMenu.xib */,
+				C9C2563714B8890800A50B50 /* Supporting Files */,
+			);
+			path = CountryLookup;
+			sourceTree = "<group>";
+		};
+		C9C2563714B8890800A50B50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C2563814B8890800A50B50 /* CountryLookup-Info.plist */,
+				C9C2563914B8890800A50B50 /* InfoPlist.strings */,
+				C9C2563C14B8890800A50B50 /* main.m */,
+				C9C2563E14B8890800A50B50 /* CountryLookup-Prefix.pch */,
+				C9C2563F14B8890800A50B50 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C2562B14B8890800A50B50 /* CountryLookup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C2564A14B8890800A50B50 /* Build configuration list for PBXNativeTarget "CountryLookup" */;
+			buildPhases = (
+				C9C2562814B8890800A50B50 /* Sources */,
+				C9C2562914B8890800A50B50 /* Frameworks */,
+				C9C2562A14B8890800A50B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountryLookup;
+			productName = CountryLookup;
+			productReference = C9C2562C14B8890800A50B50 /* CountryLookup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C2562314B8890800A50B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = NA;
+			};
+			buildConfigurationList = C9C2562614B8890800A50B50 /* Build configuration list for PBXProject "CountryLookup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9C2562114B8890800A50B50;
+			productRefGroup = C9C2562D14B8890800A50B50 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C928900114B889B300B80F23 /* Products */;
+					ProjectRef = C928900014B889B300B80F23 /* GeoIP.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C9C2562B14B8890800A50B50 /* CountryLookup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C928900914B889B400B80F23 /* GeoIP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GeoIP.framework;
+			remoteRef = C928900814B889B400B80F23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C928900B14B889B400B80F23 /* GeoIPTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GeoIPTests.octest;
+			remoteRef = C928900A14B889B400B80F23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C2562A14B8890800A50B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C2563B14B8890800A50B50 /* InfoPlist.strings in Resources */,
+				C9C2564114B8890800A50B50 /* Credits.rtf in Resources */,
+				C9C2564714B8890800A50B50 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C2562814B8890800A50B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C2563D14B8890800A50B50 /* main.m in Sources */,
+				C9C2564414B8890800A50B50 /* CountryLookupAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9C2563914B8890800A50B50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C2563A14B8890800A50B50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9C2563F14B8890800A50B50 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C2564014B8890800A50B50 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C9C2564514B8890800A50B50 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C2564614B8890800A50B50 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C2564814B8890800A50B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9C2564914B8890800A50B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9C2564B14B8890800A50B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountryLookup/CountryLookup-Prefix.pch";
+				INFOPLIST_FILE = "CountryLookup/CountryLookup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9C2564C14B8890800A50B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountryLookup/CountryLookup-Prefix.pch";
+				INFOPLIST_FILE = "CountryLookup/CountryLookup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C2562614B8890800A50B50 /* Build configuration list for PBXProject "CountryLookup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C2564814B8890800A50B50 /* Debug */,
+				C9C2564914B8890800A50B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C2564A14B8890800A50B50 /* Build configuration list for PBXNativeTarget "CountryLookup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C2564B14B8890800A50B50 /* Debug */,
+				C9C2564C14B8890800A50B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C2562314B8890800A50B50 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GeoIP' target in the 'GeoIP' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

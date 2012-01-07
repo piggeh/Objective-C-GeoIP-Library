@@ -1,0 +1,54 @@
+# Xcode
+############
+
+*.mode1
+*.mode1v3
+*.mode2
+*.mode2v3
+*.mode1v3
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.pyc
+*~.nib/
+build/*
+*.xcworkspace*
+*.xcuserdata*
+
+# Textmate -
+############
+*.tm_build_errors
+
+# Subversion
+############
+.svn
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Misc #
+######################
+*.swp

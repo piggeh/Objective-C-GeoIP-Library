@@ -1,0 +1,9 @@
+The GeoIP Objective-C Library uses the Binary Format GeoLite country 
+database by MaxMind. The latest version of the database is available 
+from http://www.maxmind.com/app/geolitecountry
+
+Example Usage
+
+    GeoIP *lookup = [[GeoIP alloc] initWithDatabase:[filename path]];
+    NSString *country = [lookup lookupCountryNameForIp:@"207.97.227.239"];
+    NSLog(@"Country Name: %@", country);
