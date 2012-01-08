@@ -18,6 +18,7 @@
 		C995482D14A8C1A9004FCC6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C995482B14A8C1A9004FCC6F /* InfoPlist.strings */; };
 		C995482F14A8C1A9004FCC6F /* GeoIPTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C995482E14A8C1A9004FCC6F /* GeoIPTests.h */; };
 		C995483114A8C1A9004FCC6F /* GeoIPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C995483014A8C1A9004FCC6F /* GeoIPTests.m */; };
+		C9BC42F514B9CB3000B1510F /* GeoIP.h in Headers */ = {isa = PBXBuildFile; fileRef = C995481914A8C1A9004FCC6F /* GeoIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +169,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BC42F514B9CB3000B1510F /* GeoIP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeoIP/GeoIP-Prefix.pch";
 				INFOPLIST_FILE = "GeoIP/GeoIP-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = framework;
@@ -395,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeoIP/GeoIP-Prefix.pch";
 				INFOPLIST_FILE = "GeoIP/GeoIP-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = framework;

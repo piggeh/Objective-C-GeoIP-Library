@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C928901714B88C0800B80F23 /* GeoIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C928900914B889B400B80F23 /* GeoIP.framework */; };
+		C9BC432E14B9D6EC00B1510F /* GeoIP.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = C928900914B889B400B80F23 /* GeoIP.framework */; };
 		C9C2563114B8890800A50B50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C2563014B8890800A50B50 /* Cocoa.framework */; };
 		C9C2563B14B8890800A50B50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C2563914B8890800A50B50 /* InfoPlist.strings */; };
 		C9C2563D14B8890800A50B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2563C14B8890800A50B50 /* main.m */; };
@@ -31,7 +32,28 @@
 			remoteGlobalIDString = C995482114A8C1A9004FCC6F;
 			remoteInfo = GeoIPTests;
 		};
+		C9BC432814B9D6D400B1510F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C928900014B889B300B80F23 /* GeoIP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C995480814A8C1A9004FCC6F;
+			remoteInfo = GeoIP;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9BC432D14B9D6DF00B1510F /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C9BC432E14B9D6EC00B1510F /* GeoIP.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C928900014B889B300B80F23 /* GeoIP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GeoIP.xcodeproj; path = ../GeoIP.xcodeproj; sourceTree = "<group>"; };
@@ -141,11 +163,13 @@
 			buildPhases = (
 				C9C2562814B8890800A50B50 /* Sources */,
 				C9C2562914B8890800A50B50 /* Frameworks */,
+				C9BC432D14B9D6DF00B1510F /* Copy Frameworks */,
 				C9C2562A14B8890800A50B50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C9BC432914B9D6D400B1510F /* PBXTargetDependency */,
 			);
 			name = CountryLookup;
 			productName = CountryLookup;
@@ -224,6 +248,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BC432914B9D6D400B1510F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GeoIP;
+			targetProxy = C9BC432814B9D6D400B1510F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C9C2563914B8890800A50B50 /* InfoPlist.strings */ = {

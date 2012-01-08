@@ -6,7 +6,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "../../GeoIP/GeoIP.h"
+#import <GeoIP/GeoIP.h>
 
 @interface CountryLookupAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
